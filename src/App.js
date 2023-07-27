@@ -1,7 +1,9 @@
-import logo from './logo.svg';
+// import logo from './logo.svg';
 import './App.css';
+import Photos from './photos/Photos';
 
 function App() {
+<<<<<<< HEAD
   state = {
     title: [],
     searchTerm: "",
@@ -36,6 +38,13 @@ function App() {
       </div>
     )
   }
+=======
+  return (
+    <div>
+      <Photos/>
+    </div>
+  );
+>>>>>>> 538ad5021dc5f1f46684d37405dc72d866ea8a87
 }
 
 export default App;
