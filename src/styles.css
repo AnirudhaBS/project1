@@ -1,0 +1,36 @@
+/* src/styles.css */
+
+/* Reset some default styles for cleaner appearance */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: white;
+  }
+  
+  /* Center the post list */
+  .post-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color:white    ;
+  }
+  
+  /* Styling for individual post */
+  .post {
+    background-color: green;
+    border-radius: 8px;
+    padding: 16px;
+    margin: 16px;
+    max-width: 300px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .post-title {
+    margin-top: 0;
+  }
+  
+  .post-body {
+    margin-bottom: 0;
+  }
+  
