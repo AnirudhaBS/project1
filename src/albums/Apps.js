@@ -1,7 +1,9 @@
-import logo from './logo.svg';
-import './App.css';
+import React, { Component } from 'react';
+import axios from "axios";
+import "./albums/App.css";
+import Searchs from './Searchs';
 
-function App() {
+export default class App extends Component {
   state = {
     title: [],
     searchTerm: "",
@@ -37,5 +39,3 @@ function App() {
     )
   }
 }
-
-export default App;
